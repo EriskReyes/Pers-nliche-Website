@@ -1,0 +1,72 @@
+{
+   "checksum": "9b67b13a9515673ee60b0e1ee549c229",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13391875217805749",
+            "date_last_used": "0",
+            "guid": "5a780668-c7ea-4635-9f8d-398f94c45ec7",
+            "id": "8",
+            "name": "Lenovo Support",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://support.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13391875217805569",
+            "date_last_used": "0",
+            "guid": "0e1cb35e-146f-4d91-8262-1f2470b71d3a",
+            "id": "7",
+            "name": "Lenovo",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13391875217804951",
+            "date_last_used": "0",
+            "guid": "d242f66a-143b-4830-bc6b-f1f259d1e4ba",
+            "id": "6",
+            "name": "McAfee",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/lenovo.html",
+            "visit_count": 0
+         } ],
+         "date_added": "13391875217549424",
+         "date_last_used": "0",
+         "date_modified": "13391875217805749",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favoritenleiste",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13391875217549428",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Weitere Favoriten",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13391875217549432",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile Favoriten",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

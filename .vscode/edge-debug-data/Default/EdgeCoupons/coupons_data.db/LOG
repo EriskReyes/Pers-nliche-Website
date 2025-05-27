@@ -1,0 +1,10 @@
+2025/05/27-14:26:19.466 bcf8 Reusing MANIFEST C:\xampp\htdocs\Modul293\.vscode\edge-debug-data\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/27-14:26:19.467 bcf8 Recovering log #13
+2025/05/27-14:26:19.469 bcf8 Level-0 table #16: started
+2025/05/27-14:26:19.474 bcf8 Level-0 table #16: 670964 bytes OK
+2025/05/27-14:26:19.474 bcf8 Recovering log #16
+2025/05/27-14:26:19.475 bcf8 Reusing old log C:\xampp\htdocs\Modul293\.vscode\edge-debug-data\Default\EdgeCoupons/coupons_data.db/000016.log 
+2025/05/27-14:26:19.477 bcf8 Delete type=0 #13
+2025/05/27-14:26:19.477 bcf8 Delete type=2 #17
+2025/05/27-14:26:19.479 efb0 Level-0 table #18: started
+2025/05/27-14:26:19.482 efb0 Level-0 table #18: 670964 bytes OK
