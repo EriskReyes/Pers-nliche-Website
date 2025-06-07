@@ -52,9 +52,9 @@ Willkommen in meinem persönlichen Portfolio. Diese Website wurde von mir entwic
 
   Kontakt
 
-- E-Mail: rig.erick.reyes@outlook.com  
-- GitHub: [github.com/RigoEriskReyes] 
-- LinkedIn: [linkedin.com/in/rigo-erisk-reyes-385a0a338]
+- E-Mail: rigo.erick.reyes@outlook.com  
+- GitHub: [https://github.com/EriskReyes] 
+- LinkedIn: [https://www.linkedin.com/in/erisk-reyes-385a0a338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
 
 
 
@@ -66,4 +66,4 @@ Dieses Projekt ist urheberrechtlich geschützt. Es dient der privaten Präsentat
 
  Über mich
 
-Ich bin **Rigo Erisk Reyes**, ein handwerklich erfahrener Glaser EFZ und derzeit in Weiterbildung als Applikationsentwickler. Mein Ziel ist es, technisches Wissen mit digitaler Kreativität zu verbinden und in der Zukunft als Softwareentwickler oder sogar als Softwarearchitekt zu arbeiten.
+Ich bin Rigo Erisk Reyes, ein handwerklich erfahrener Glaser EFZ und derzeit in Weiterbildung als Applikationsentwickler. Mein Ziel ist es, technisches Wissen mit digitaler Kreativität zu verbinden und in der Zukunft als Softwareentwickler oder sogar als Softwarearchitekt zu arbeiten.
