@@ -2,7 +2,7 @@
 
 Willkommen in meinem persönlichen Portfolio. Diese Website wurde von mir entwickelt, um meine Fähigkeiten, Berufserfahrung und Weiterbildung im Bereich der (Applikationsentwicklung) zu präsentieren. Die Seite ist vollständig in (HTML und CSS) aufgebaut, mit Fokus auf Design, Struktur und Responsivität.
 
----
+
 
  📁 Projektstruktur
 
@@ -26,7 +26,7 @@ Willkommen in meinem persönlichen Portfolio. Diese Website wurde von mir entwic
 └── impressum.html            → Impressum & Datenschutzerklärung
 ```
 
----
+
 
   Inhalte der Website
 
@@ -38,7 +38,7 @@ Willkommen in meinem persönlichen Portfolio. Diese Website wurde von mir entwic
 - Kontakt: Formular + Verlinkung zu GitHub und LinkedIn
 - Impressum: Rechtliche Angaben & Datenschutzerklärung
 
----
+
 
   Technologien
 
@@ -48,7 +48,7 @@ Willkommen in meinem persönlichen Portfolio. Diese Website wurde von mir entwic
 - Icons von Flaticon
 - Animierte Übergänge (CSS Keyframes)
 
----
+
 
   Kontakt
 
@@ -56,13 +56,13 @@ Willkommen in meinem persönlichen Portfolio. Diese Website wurde von mir entwic
 - GitHub: [github.com/RigoEriskReyes] 
 - LinkedIn: [linkedin.com/in/rigo-erisk-reyes-385a0a338]
 
----
+
 
  Lizenz
 
 Dieses Projekt ist urheberrechtlich geschützt. Es dient der privaten Präsentation meiner Person und darf nicht ohne Genehmigung kopiert oder kommerziell verwendet werden.
 
----
+
 
  Über mich
 
