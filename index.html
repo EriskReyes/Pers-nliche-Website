@@ -232,7 +232,7 @@ Ich bin Glaser EFZ mit handwerklicher Erfahrung und mache aktuell eine Weiterbil
         <!-- Kontaktformular -->
         <div class="contact-form-container">
           <h3>Nachricht senden</h3>
-          <form class="contact-form" action="#" method="post">
+            <form class="contact-form" onsubmit="return false;">
             <div class="form-group">
               <label for="name">Name *</label>
               <input type="text" id="name" name="name" required>
@@ -259,9 +259,15 @@ Ich bin Glaser EFZ mit handwerklicher Erfahrung und mache aktuell eine Weiterbil
                 Ich stimme der Verarbeitung meiner Daten gemäß der <a href="impressum.html">Datenschutzerklärung</a> zu. *
               </label>
             </div>
-            
-            <button type="submit" class="button">Nachricht senden</button>
-          </form>
+
+                <a
+                        class="button"
+                        href="mailto:rigo.erick.reyes@outlook.com?subject=Kontakt%20Portfolio"
+                >
+                    Nachricht senden
+                </a>
+
+            </form>
         </div>
       </div>
     </div>
