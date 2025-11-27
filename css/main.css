@@ -767,3 +767,63 @@ img {
     opacity: 1;
   }
 }
+
+/* New wrapper for hero content */
+.hero-main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; /* Take full height of hero */
+}
+
+
+/* Responsive Design Adjustments for Mobile Split-Screen */
+@media (max-width: 768px) {
+    .hero-main-content {
+        flex-direction: row;
+        align-items: stretch; /* Make children fill the height */
+    }
+
+    .hero-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.2rem; /* Reduced for mobile */
+    }
+
+    .hero-text p {
+        font-size: 1rem; /* Reduced for mobile */
+    }
+
+    .hero-background-image {
+        display: flex; /* Make it visible */
+        position: relative; /* Override absolute positioning */
+        flex: 1;
+        width: auto;
+        height: 100%;
+        opacity: 1; /* Make it fully visible */
+        bottom: auto; /* Reset positioning */
+        right: auto; /* Reset positioning */
+    }
+
+    .hero-background-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Cover the half screen */
+        border: none; /* Remove desktop border */
+        box-shadow: none; /* Remove desktop neon effect */
+        border-radius: 0; /* Remove rounded corners */
+    }
+
+    .scroll-indicator {
+        /* Hide scroll indicator on split view as it might be confusing */
+        display: none;
+    }
+}
