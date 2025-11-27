@@ -780,10 +780,26 @@ img {
 
 /* Responsive Design Adjustments for Mobile Split-Screen */
 @media (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Align items to the top */
+        align-items: stretch; /* Stretch items to fill width */
+        padding: 0; /* Reset padding from older rules */
+    }
+
+    .hero-nav {
+        position: relative; /* Remove absolute positioning */
+        flex-shrink: 0; /* Prevent nav from shrinking */
+        z-index: 3; /* Ensure it's on top */
+    }
+
     .hero-main-content {
         flex-direction: row;
         align-items: stretch; /* Make children fill the height */
-        padding-top: 60px; /* Add padding to push content below nav */
+        flex-grow: 1; /* Make this container fill remaining space */
+        height: auto; /* Reset height */
+        padding-top: 0; /* Remove previous padding fix */
     }
 
     .hero-content {
@@ -812,6 +828,7 @@ img {
         opacity: 1; /* Make it fully visible */
         bottom: auto; /* Reset positioning */
         right: auto; /* Reset positioning */
+        z-index: 2;
     }
 
     .hero-background-image img {
@@ -826,5 +843,14 @@ img {
     .scroll-indicator {
         /* Hide scroll indicator on split view as it might be confusing */
         display: none;
+    }
+
+    /* Override other potential conflicting mobile styles */
+    .header .container {
+        flex-direction: row; /* Ensure nav container is row */
+    }
+
+    .menu {
+        gap: 10px; /* Reduce gap for smaller screens */
     }
 }
