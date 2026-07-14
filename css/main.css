@@ -1188,3 +1188,7 @@ img {
     padding: 15px;
   }
 }
+#zertifikate .project-img {
+  object-fit: contain;
+  background: #0d1526;
+}
