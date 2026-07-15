@@ -1192,3 +1192,15 @@ img {
   object-fit: contain;
   background: #0d1526;
 }
+.skills-box-main {                                                 /* caja del stack principal */
+  grid-column: 1 / -1;                                             /* ocupa las dos columnas del grid: ancho completo arriba */
+}
+
+.skill-main {                                                      /* pastilla del stack principal */
+  background-color: var(--primary);                                /* azul fijo: máximo peso visual */
+  color: white;                                                    /* texto blanco sobre azul */
+}
+
+.skill-main:hover {                                                /* hover de la pastilla principal */
+  background-color: var(--primary-dark);                           /* azul oscuro al pasar el mouse */
+}
