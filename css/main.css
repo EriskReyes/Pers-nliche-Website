@@ -1035,6 +1035,12 @@ img {
 
 /* ===== TABLET NAV + HAMBURGER (≤768px) ===== */
 @media (max-width: 768px) {
+  .hero-nav {
+    background-color: var(--dark); /* deckender Hintergrund, damit der Text dahinter nicht durchscheint */
+    backdrop-filter: none; /* Unschaerfe-Effekt auf dem Handy nicht noetig */
+    z-index: 10; /* Menue liegt ueber dem Hero-Text */
+  }
+
   .hero-nav .container {
     flex-wrap: wrap;
     justify-content: flex-start;
