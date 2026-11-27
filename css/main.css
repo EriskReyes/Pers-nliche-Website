@@ -1086,6 +1086,10 @@ img {
 /* ===== PHONE LAYOUT (≤576px) ===== */
 @media (max-width: 576px) {
   /* Hero: single column, no split-screen */
+  .hero-nav {
+    position: relative; /* Navigation liegt im normalen Fluss, der Text startet immer darunter */
+  }
+
   .hero {
     padding: 0;
     height: auto; /* Hoehe richtet sich nach dem Inhalt, nichts wird abgeschnitten */
@@ -1094,7 +1098,7 @@ img {
 
   .hero-main-content {
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 24px; /* Navigation ist nicht mehr ueberlagert, nur noch kleiner Abstand */
     align-items: center;
     justify-content: center;
     padding-bottom: 60px; /* Platz unter dem Foto */
@@ -1230,4 +1234,86 @@ img {
 
 .skill-main:hover {
   background-color: var(--primary-dark);
+}
+
+/* ===== DESKTOP / BREITES FENSTER (ab 769px): Text links, Foto rechts, nichts ueberlagert ===== */
+@media (min-width: 769px) {
+  .hero {
+    height: auto; /* Hoehe richtet sich nach dem Inhalt, nichts wird abgeschnitten */
+    min-height: 100vh; /* mindestens ein Bildschirm hoch */
+  }
+
+  .hero-main-content {
+    flex-direction: row; /* Text links, Foto rechts */
+    align-items: center; /* vertikal zentriert */
+    justify-content: center; /* horizontal zentriert */
+    gap: 40px; /* Abstand zwischen Text und Foto */
+    max-width: 1200px; /* auf grossen Bildschirmen nicht zu breit */
+    height: auto; /* Hoehe nach Inhalt */
+    padding: 110px 40px 90px; /* oben Platz fuer die Navigation, unten fuer "Scrollen" */
+  }
+
+  .hero-content {
+    flex: 1 1 50%; /* Textspalte nimmt die linke Haelfte */
+    padding: 0; /* kein zusaetzlicher Innenabstand */
+  }
+
+  .hero-text h1 {
+    font-size: clamp(2.4rem, 4.2vw, 3.8rem); /* Ueberschrift waechst und schrumpft mit dem Fenster */
+  }
+
+  .hero-background-image {
+    position: static; /* nicht mehr ueber dem Text, sondern in der Spalte rechts */
+    flex: 0 0 38%; /* Fotospalte ca. 38 Prozent der Breite */
+    width: auto; /* Breite ergibt sich aus flex */
+    max-width: 420px; /* Foto nicht zu gross */
+    opacity: 1; /* volle Deckkraft, kein blauer Schleier */
+  }
+
+  .hero-background-image img {
+    display: block; /* entfernt die Luecke unter dem Bild */
+    width: 100%; /* fuellt die Spalte */
+    height: auto; /* Seitenverhaeltnis bleibt */
+    aspect-ratio: 4 / 5; /* Portraitformat */
+    object-fit: cover; /* sauber zugeschnitten, nicht verzerrt */
+    object-position: center top; /* Gesicht bleibt sichtbar */
+    border-radius: 16px; /* weiche Ecken */
+  }
+}
+
+/* Navigation in schmalen Desktop-Fenstern (769px bis 1100px): kein Zeilenumbruch */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .logo {
+    font-size: 1.4rem; /* kleineres Logo, damit alles in eine Zeile passt */
+    white-space: nowrap; /* Logo bricht nicht um */
+  }
+
+  .menu {
+    gap: 16px; /* engere Abstaende zwischen den Links */
+  }
+
+  .menu a {
+    font-size: 0.9rem; /* etwas kleinere Links */
+    white-space: nowrap; /* Links brechen nicht um */
+  }
+}
+
+/* Navigation in sehr schmalen Desktop-Fenstern (769px bis 900px): noch kompakter */
+@media (min-width: 769px) and (max-width: 900px) {
+  .logo {
+    font-size: 1.15rem; /* noch kleineres Logo */
+  }
+
+  .menu {
+    gap: 8px; /* sehr enge Abstaende zwischen den Links */
+  }
+
+  .menu a {
+    font-size: 0.78rem; /* kleinste Linkgroesse, damit alles in eine Zeile passt */
+  }
+
+  .social a {
+    width: 32px; /* kleinere Icon-Flaechen */
+    height: 32px; /* kleinere Icon-Flaechen */
+  }
 }
